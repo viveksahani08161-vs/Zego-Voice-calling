@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+ node_modules folder ignore karo
+node_modules
+
+# build hone ke baad dist folder ignore karo
+dist
+
+# private env file ignore karo
+.env
