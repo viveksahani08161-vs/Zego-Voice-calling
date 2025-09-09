@@ -92,3 +92,5 @@ export default function App() {
     ></div>
   );
 }
+const appID = import.meta.env.VITE_ZEGO_APP_ID;
+const serverSecret = import.meta.env.VITE_ZEGO_SERVER_SECRET;
